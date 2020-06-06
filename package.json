@@ -1,0 +1,29 @@
+{
+  "name": "dynamodb-rcu-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "createTable": "node createTable.js",
+    "executeBatchWrite": "node executeBatchWrite.js",
+    "executeQuery": "node executeQuery.js"
+  },
+  "author": "gaeshi",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.691.0"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "prettier": "2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
+  }
+}
