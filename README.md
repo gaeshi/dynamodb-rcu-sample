@@ -7,7 +7,7 @@ A sample code to demonstrate WCU consumption on BatchWriteItem and RCU on Query 
 ### Prerequisites
 
 1. Install Node.js, NPM.
-1. Configure AWS credentials (Linux, Unix, and macOS: `~/.aws/credentials`, Windows: `C:\Users\USER_NAME\.aws\credentials`), see [AWS guide](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html)
+1. Configure AWS credentials (see [AWS guide](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/getting-your-credentials.html)).
 
 ### Run the sample
 
